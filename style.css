@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.login-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page {
+    background-image: url(john-salvino-Mn3jH7iN0KA-unsplash.jpg);
+    background-size:cover;
+    background-position:center;
+    height: 100%;
+    overflow: hidden;
+}
+
+.login-form-right h1 {
+    margin-top: 3rem;
+}
+
+.login-form {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    padding-left: 22rem;
+    padding-right: 22rem;
+}
+
+.login-form-right {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    width: 50%;
+    padding-top: 5rem;
+}
+
+.login-form-left {
+    width: 50%;
+}
+
+.img {
+    width: 100%;
+}
+
+.login-form-right form input {
+    border: none;
+    border-bottom: 0.5px solid black;
+    height: 10px;
+    padding: 7px;
+    font-size: 15px;
+    padding-bottom: 10px;
+    padding-top: 19px;
+    width: 100%;
+    width: calc(100% - 84px);
+    margin-left: 42px;
+    margin-right: 42px;
+    box-sizing: border-box;
+}
+
+.login-form-right input:focus {
+    outline: none;
+}
+
+
+.login-form-right form input[type="email"] {
+    margin-bottom: 23px;
+}
+
+.login-form-right form label {
+    font-size: larger;
+    padding-left: 3rem;
+}
+
+.sign-in-btn {  
+    background-color: rgb(85, 185, 224);
+    color:white;
+    width: 11rem;
+    height: 6rem;
+    cursor: pointer;
+    margin-bottom: 12rem;
+    margin-left: 329px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: none;
+
+}
+
+.forgot-pass {
+    margin-left: 23rem;
+    margin-top: 15px;
+    color: rgb(85, 185, 224);
+    text-decoration: none;
+}
